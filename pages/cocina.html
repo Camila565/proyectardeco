@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     
         <!--TITULO Y LINK HOJA DE ESTILO-->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <title>Inicio</title>
     </head>
     
@@ -31,17 +31,15 @@
             <p>Hasta 6 cuotas sin interés - Envío gratis en compras mayores a $80.000</p>
         </div>
         <h1>PROYECTAR DECO</h1>
-            <nav class="navBar">
-                <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Cocina</a></li>
-                <li><a href="pages/dormitorio.html">Dormitorio</a></li>
-                <li><a href="pages/bano.html">Baño</a></li>
-                <li><a href="pages/vajilla.html">Vajilla</a></li>
-                <li><a href="pages/exterior.html">Exterior</a></li>
-                <li><a href="pages/navidad.html">Navidad</a></li>
-                </ul>
-            </nav>
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            <a class="nav-link active" href="#">Cocina</a>
+            <a class="nav-link" href="../pages/dormitorio.html">Dormitorio</a>
+            <a class="nav-link" href="../pages/bano.html">Baño</a>
+            <a class="nav-link" href="../pages/vajilla.html">Vajilla</a>
+            <a class="nav-link" href="../pages/exterior.html">Exterior</a>
+            <a class="nav-link" href="../pages/navidad.html" tabindex="-1" aria-disabled="true">Navidad</a>
+        </nav>
         
     </header>
 
@@ -49,12 +47,24 @@
 
     <main id="main">
         <h2>Cocina</h2>
+        
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorías
+            </button>
+            <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Vasos</button></li>
+            <li><button class="dropdown-item" type="button">Copas</button></li>
+            <li><button class="dropdown-item" type="button">Cubiertos</button></li>
+            </ul>
+        </div>
+        
         <div>
             <section>
-                <img src="images/copastornasol.jpg" alt="Copas Tornasol">
-                <img src="images/copabasica.jpg" alt="Copa Básica">
-                <img src="images/copondegin.jpg" alt="Copon de Gin">
-                <img src="images/cubiertosdorados.jpg" alt="Cubiertos Dorados">
+                <img src="../images/copastornasol.jpg" alt="Copas Tornasol">
+                <img src="../images/copabasica.jpg" alt="Copa Básica">
+                <img src="../images/copondegin.jpg" alt="Copon de Gin">
+                <img src="../images/cubiertosdorados.jpg" alt="Cubiertos Dorados">
             </section>
 
         </div>
@@ -96,5 +106,7 @@
         <h4>&copy; Todos los derechos reservados. Copyright 2024</h4>
 
     </footer>
+
+    <source src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" type="">
 </body>
 </html>

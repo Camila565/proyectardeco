@@ -31,17 +31,15 @@
             <p>Hasta 6 cuotas sin interés - Envío gratis en compras mayores a $80.000</p>
         </div>
         <h1>PROYECTAR DECO</h1>
-        <nav class="navBar">
-            <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="pages/cocina.html">Cocina</a></li>
-            <li><a href="pages/dormitorio.html">Dormitorio</a></li>
-            <li><a href="pages/bano.html">Baño</a></li>
-            <li><a href="pages/vajilla.html">Vajilla</a></li>
-            <li><a href="pages/exterior.html">Exterior</a></li>
-            <li><a href="pages/navidad.html">Navidad</a></li>
-            </ul>
-                
+        <nav id= "nav" class="nav nav-pills nav-fill">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" href="pages/cocina.html">Cocina</a>
+            <a class="nav-link" href="pages/dormitorio.html">Dormitorio</a>
+            <a class="nav-link" href="pages/bano.html">Baño</a>
+            <a class="nav-link" href="pages/vajilla.html">Vajilla</a>
+            <a class="nav-link" href="pages/exterior.html">Exterior</a>
+            <a class="nav-link" href="pages/navidad.html" tabindex="-1" aria-disabled="true">Navidad</a>
+        
         </nav>
         
     </header>
@@ -59,7 +57,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Duendes navideños colgantes</h5>
                     <p class="card-text">$8.000</p>
-                    <button>Agregar al carrito</button>
+                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
                     </div>
                 </div>
                 </div>
@@ -69,17 +67,17 @@
                     <div class="card-body">
                     <h5 class="card-title">Luces de exterior colgantes</h5>
                     <p class="card-text">$22.000</p>
-                    <button>Agregar al carrito</button>
+                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
                     </div>
                 </div>
                 </div>
                 <div class="col">
                 <div class="card">
-                    <img src="/images/copastornasol.jpg" class="card-img-top" alt="card-grid-image">
+                    <img src="images/copastornasol.jpg" class="card-img-top" alt="card-grid-image">
                     <div class="card-body">
                     <h5 class="card-title">Copas de brindis tornasoladas</h5>
                     <p class="card-text">$20.000</p>
-                    <button>Agregar al carrito</button>
+                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
                     </div>
                 </div>
                 </div>
@@ -89,7 +87,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Cubiertos dorados x 16 - Juego</h5>
                     <p class="card-text">$33.500</p>
-                    <button>Agregar al carrito</button>
+                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
                     </div>
                 </div>
                 </div>
@@ -107,8 +105,10 @@
             <h2>PROYECTAR DECO</h2>
         </section>
         <section class="navFooter">
-            <ul>
-                <h2>Nosotros</h2>
+            <li>
+                <li>
+                <a href="../pages/nosotros.html">Nosotros</a>
+                </li>
                 <li>
                 <p>Quiénes somos</p>
                 <p>Locales</p></li>
