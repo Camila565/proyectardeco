@@ -7,19 +7,44 @@
 </head>
 <body id="body">
     <header id="header"> 
-        <p>Hasta 6 cuotas sin interés      -     Envío gratis en compras mayores a $80.000</p>
+        <div class="top-bar">
+            <p>Hasta 6 cuotas sin interés - Envío gratis en compras mayores a $80.000</p>
+        </div>
         <h1>PROYECTAR DECO</h1>
-            <nav class="navBar">
-                <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="pages/cocina.html">Cocina</a></li>
-                <li><a href="pages/dormitorio.html">Dormitorio</a></li>
-                <li><a href="pages/bano.html">Baño</a></li>
-                <li><a href="pages/vajilla.html">Vajilla</a></li>
-                <li><a href="pages/exterior.html">Exterior</a></li>
-                <li><a href="pages/navidad.html">Navidad</a></li>
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/cocina.html">Cocina</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/dormitorio.html">Dormitorio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/bano.html">Baño</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/vajilla.html">Vajilla</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/exterior.html">Exterior</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/navidad.html" tabindex="-1" aria-disabled="true">Navidad</a>
+                </li>
                 </ul>
-            </nav>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                <button class="btn btn-primary" type="button">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
         
     </header>
 
