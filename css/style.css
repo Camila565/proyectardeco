@@ -117,9 +117,14 @@ margin-bottom: 30px;
 
 }
 
-.card {
-    display: flexbox;
-    justify-content: center;
+.col {
+    display: flex; 
+    text-align: center;
+}
+
+.card-img-top {
+    display: flex;
+    margin: auto;
 }
 
 #main div h3 {
