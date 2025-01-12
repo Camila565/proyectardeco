@@ -126,10 +126,11 @@ object-fit: cover;
 }
 
 .col {
+    display: inline-block;
     grid-template-areas: 
     /*        col#1   col#2  col#3  col#4*/
     /*fil1*/  "card1  card2  card3  card4"
-
+    /*fil2*/
     ;
     grid-template-columns: repeat(4);
     
@@ -162,10 +163,32 @@ object-fit: cover;
 
 /*MAIN DE LA PAGE COCINA*/
 
-.imgCocina {
-
-    display: flex;
+.grid-container2 {
+    display: grid;
+    grid-template-areas: 
+    /*        col#1   col#2  col#3*/
+    /*fil1*/  "card1  card2  card3"
+    /*fil2*/  "card4  card5  card6"
+    ;
+    grid-template-columns: repeat(3);
+    grid-template-rows: repeat(2);
     
+}
+
+@media (max-widht: 765) {
+    .grid-container2 {
+        grid-template-areas: 
+        /*        col#1  */
+        /*fil1*/  "card1"
+        /*fil2*/  "card2"
+        /*fil3*/  "card3"
+        /*fil4*/  "card4"
+        /*fill5*/ "card5"
+        /*fill6*/ "card6"
+        ;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6);
+    }
 }
 
 .row {
