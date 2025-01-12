@@ -20,7 +20,7 @@
     
         <!--TITULO Y LINK HOJA DE ESTILO-->
         <link rel="stylesheet" href="../css/style.css">
-        <title>Inicio</title>
+        <title>Sobre Nosotros</title>
     </head>
     
 
@@ -29,7 +29,7 @@
         <div class="top-bar">
             <p>Hasta 6 cuotas sin interés - Envío gratis en compras mayores a $80.000</p>
         </div>
-        <h1>PROYECTAR DECO</h1>
+        <a href="../index.html" class="logo1"><h1>PROYECTAR DECO</h1></a>
         <nav class="navbar navbar-expand-xl navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../pages/inicio.html">Inicio</a>
@@ -53,9 +53,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/exterior.html">Exterior</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/navidad.html" tabindex="-1" aria-disabled="true">Navidad</a>
-                </li>
                 </ul>
                 <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
@@ -67,40 +64,23 @@
         
     </header>
     <main>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
-            <div class="carousel-item-active" data-bs-interval="10000">
-                <img src="../images/decoextslide.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5>Sobre nosotros</h5>
-                <p>Somos una pyme familiar dedicada 100% a la venta online</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="../images/decoextslide2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-                </div>
+            <div class="carousel-item active">
+                <img src="../images/banner1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="../images/banner2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/banner3.png" class="d-block w-100" alt="...">
             </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
             </button>
@@ -117,13 +97,13 @@
             <div class="collapse navbar-collapse show" id="navbarLight">
                 <ul class="navbar-nav me-auto mb-2 mb-xl-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Nosotros</a>
+                    <a class="nav-link1" aria-current="page" href="#">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../pages/preguntasfrecuentes.html">Preguntas frecuentes</a>
+                    <a class="nav-link1" href="../pages/preguntasfrecuentes.html">Preguntas frecuentes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../pages/metodosdepago.html" tabindex="-1" aria-disabled="true">Métodos de pago</a>
+                    <a class="nav-link1" href="../pages/metodosdepago.html" tabindex="-1" aria-disabled="true">Métodos de pago</a>
                 </li>
                 </ul>
                 <form class="d-flex">
@@ -135,7 +115,7 @@
         </nav>
 
         <div class="redesFooter">
-            <h2 class="infoCliente">Estamos para brindarte una gran experiencia y que juntos hagamos de tu casa un hogar</h2>
+            <h2 class="infoCliente">"Estamos para brindarte una gran experiencia y que juntos hagamos de tu casa un hogar"</h2>
             <h2 class="titRedes">Redes Sociales</h2>
             <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>   
@@ -145,7 +125,7 @@
 
     </footer>
 
-    <source src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" type="">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
