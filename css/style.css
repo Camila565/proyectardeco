@@ -8,7 +8,7 @@
 }
 
 
-/*BODY*/
+BODY
 
 #body   {
     max-width: 100%;
@@ -98,6 +98,7 @@ min-height: 100vh;
     width: 100%;
 margin-top: 20px;
 margin-bottom: 30px;
+object-fit: cover;
 }
 
 #main h2 {
@@ -118,13 +119,41 @@ margin-bottom: 30px;
 }
 
 .col {
-    display: flex;
     text-align: center;
+    display: inline-block;
+    padding: 100px; 
+    
 }
 
-.card-img-top {
+.col {
+    grid-template-areas: 
+    /*        col#1   col#2  col#3  col#4*/
+    /*fil1*/  "card1  card2  card3  card4"
+
+    ;
+    grid-template-columns: repeat(4);
+    
+}
+
+@media (max-widht: 765) {
+    .card {
+        grid-template-areas: 
+        /*        col#1  */
+        /*fil1*/  "card1"
+        /*fil1*/  "card2"
+        /*fil1*/  "card3"
+        /*fil1*/  "card4"
+        ;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+
+.card {
     display: flex;
     margin: auto;
+    align-items: center;
 }
 
 #main div h3 {
