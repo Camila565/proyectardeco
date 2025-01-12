@@ -121,29 +121,31 @@ object-fit: cover;
 .col {
     text-align: center;
     display: inline-block;
-    padding: 100px; 
+    padding: 100px;
+    
     
 }
 
-.col {
+
+.grid-container {
     display: inline-block;
     grid-template-areas: 
     /*        col#1   col#2  col#3  col#4*/
-    /*fil1*/  "card1  card2  card3  card4"
-    /*fil2*/
+    /*fil1*/  "card1  card2  card3  card32"
     ;
-    grid-template-columns: repeat(4);
+    grid-template-columns: repeat (4);
+    grid-template-rows: auto;
     
 }
 
-@media (max-widht: 765) {
-    .card {
+@media (max-widht: 576px) {
+    .grid-container {
         grid-template-areas: 
         /*        col#1  */
         /*fil1*/  "card1"
         /*fil1*/  "card2"
         /*fil1*/  "card3"
-        /*fil1*/  "card4"
+        /*fil1*/  "card32"
         ;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -157,45 +159,15 @@ object-fit: cover;
     align-items: center;
 }
 
-#main div h3 {
+#main div h5 {
     font-size: large;
 }
 
 /*MAIN DE LA PAGE COCINA*/
 
 .grid-container2 {
-    display: grid;
-    grid-template-areas: 
-    /*        col#1   col#2  col#3*/
-    /*fil1*/  "card1  card2  card3"
-    /*fil2*/  "card4  card5  card6"
-    ;
-    grid-template-columns: repeat(3);
-    grid-template-rows: repeat(2);
+    text-align: center;
     
-}
-
-@media (max-widht: 765) {
-    .grid-container2 {
-        grid-template-areas: 
-        /*        col#1  */
-        /*fil1*/  "card1"
-        /*fil2*/  "card2"
-        /*fil3*/  "card3"
-        /*fil4*/  "card4"
-        /*fill5*/ "card5"
-        /*fill6*/ "card6"
-        ;
-        grid-template-columns: auto;
-        grid-template-rows: repeat(6);
-    }
-}
-
-.row {
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 100px;
-    margin-left: 100px;
 }
 
 
