@@ -152,6 +152,10 @@ object-fit: cover;
     }
 }
 
+.col {
+    display: inline-block;
+    padding: 180px;
+}
 
 .card {
     display: flex;
