@@ -142,6 +142,7 @@ li {
     font-size: 1rem;
 }
 
+
 .card {
     display: flex;
     margin: 100px;
@@ -182,7 +183,7 @@ li {
 }
 
 
-/* Footer */
+/* FOOTER */
 #footer {
     background-color: #A5C281;
     margin-top: 120px;
@@ -200,6 +201,8 @@ li {
     text-align: center;
     font-size: 15px;
 }
+
+/*NAV FOOTER*/
 
 .navbar-brand {
     font-size: 35px;
