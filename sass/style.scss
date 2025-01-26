@@ -1,0 +1,20 @@
+/*PRESETS*/
+
+@use "presets/variables";
+@use "presets/reset";
+@use "presets/header_nav";
+@use "presets/main_contenido";
+@use "presets/grids_images";
+@use "presets/grids_inicio";
+@use "presets/footer";
+
+/*PAGES SCSS*/
+
+@use "pages-sass/bano";
+@use "pages-sass/cocina";
+@use "pages-sass/dormitorio";
+@use "pages-sass/exterior";
+@use "pages-sass/inicio";
+@use "pages-sass/muebles";
+@use "pages-sass/nosotros";
+

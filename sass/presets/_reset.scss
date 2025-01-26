@@ -1,0 +1,11 @@
+/*RESET*/
+
+$color-fuente: black;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Alata", serif;
+    color: $color-fuente;
+}

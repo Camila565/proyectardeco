@@ -1,0 +1,23 @@
+/* GRIDS PARA IMAGES DE PAGES COCINA, DORMITORIO, BAÑO, MUEBLES, EXTERIOR */
+
+.grid-container2 {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    
+}
+
+@media (max-width: 576px) {
+    .grid-container2 {
+        grid-template-areas:
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8"
+        "card9";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
