@@ -184,17 +184,16 @@ li {
 
 /*NAV FOOTER*/
 .navbar-brand {
-  font-size: 40px;
+  font-size: 38px;
 }
 
-.btn-outline-primary {
-  outline-style: auto;
-  outline-color: white;
-}
-
-.nav-link1 {
-  color: rgb(48, 47, 47);
+.pieLink, .pie {
+  display: inline-block;
   text-decoration: none;
+  color: rgb(48, 47, 47);
+  text-align: right;
+  box-sizing: border-box;
+  margin: 20px;
 }
 
 .resumen, .parrafo {

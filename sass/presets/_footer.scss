@@ -13,17 +13,16 @@ $color-nav-link: rgb(48, 47, 47);
     /*NAV FOOTER*/
 
 .navbar-brand {
-    font-size: 40px;
+    font-size: 38px;
 }
 
-.btn-outline-primary {
-    outline-style: auto;
-    outline-color: white;
-}
-
-.nav-link1 {
-    color: $color-nav-link;
+.pieLink , .pie {
+    display: inline-block;
     text-decoration: none;
+    color: $color-nav-link;
+    text-align: right;
+    box-sizing: border-box;
+    margin: 20px;
 }
 
 .resumen , .parrafo {
