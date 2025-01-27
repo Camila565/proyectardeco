@@ -27,6 +27,11 @@
   font-size: medium;
 }
 
+.navbar-brand {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
 .fa-solid {
   margin-left: 20px;
   margin-top: 22px;
@@ -42,6 +47,8 @@
 
 .logo1 {
   text-decoration: none;
+  color: black;
+  font-size: 18px;
 }
 
 h1 {
@@ -64,11 +71,6 @@ h1 {
   color: black;
   outline-style: auto;
   outline-color: #A5C281;
-}
-
-a {
-  color: black;
-  font-size: 18px;
 }
 
 li {
@@ -189,9 +191,17 @@ li {
   height: 100%;
 }
 
+#footer .piePromo {
+  text-align: center;
+  background-color: #cbdbb7;
+}
+
 /*NAV FOOTER*/
-.navbar-brand {
-  font-size: 38px;
+.pieTitle {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  stroke: rgb(48, 47, 47);
 }
 
 .pieLink, .pie {

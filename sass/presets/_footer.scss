@@ -2,6 +2,8 @@
 
 $color-primario: #A5C281;
 $color-nav-link: rgb(48, 47, 47);
+$color-fuente: black;
+$color-footer: #cbdbb7;
 
 #footer {
     background-color: $color-primario;
@@ -10,10 +12,20 @@ $color-nav-link: rgb(48, 47, 47);
     height: 100%;
 }
 
+#footer .piePromo {
+    text-align: center;
+    background-color: $color-footer;
+
+}
     /*NAV FOOTER*/
 
-.navbar-brand {
-    font-size: 38px;
+.pieTitle {
+    font-size: 30px;
+    text-decoration: none;
+    color: $color-fuente;
+    stroke: $color-nav-link;
+
+
 }
 
 .pieLink , .pie {

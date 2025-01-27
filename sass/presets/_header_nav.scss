@@ -18,6 +18,11 @@ $color-icon: #5b743e;
     font-size: medium;
 }
 
+.navbar-brand { 
+    font-size: 18px;
+    margin-top: 5px;
+}
+
 .fa-solid {
     margin-left: 20px;
     margin-top: 22px;
@@ -33,6 +38,8 @@ $color-icon: #5b743e;
 
 .logo1 {
     text-decoration: none;
+    color: $color-fuente;
+    font-size: 18px;
 }
 
 h1 {
@@ -57,10 +64,6 @@ h1 {
     outline-color: $color-primario;
 }
 
-a {
-    color: $color-fuente;
-    font-size: 18px;
-}
 
 li {
     display: inline-block;
