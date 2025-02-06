@@ -13,10 +13,3 @@
     object-fit: cover;
     margin: auto;
 }
-
-@media (max-width: 576px) {
-    .grid-container2 {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-}

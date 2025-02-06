@@ -1,0 +1,22 @@
+/*MEDIAQUERIES PARA IMAGES INICIO*/
+
+@media (max-width: 576px) {
+    .grid-container , .col1 {
+        grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card32";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+/*MEDIAQUERIES PARA IMAGES, COCINA, BAÑO, MUEBLES, ETC*/
+
+@media (max-width: 576px) {
+    .grid-container2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}

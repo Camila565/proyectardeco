@@ -9,18 +9,6 @@ $color-fuente: black;
     
 }
 
-@media (max-width: 576px) {
-    .grid-container , .col1 {
-        grid-template-areas:
-        "card1"
-        "card2"
-        "card3"
-        "card32";
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-}
-
 .col1 , .card {
     width: 80%;
     height: auto;
